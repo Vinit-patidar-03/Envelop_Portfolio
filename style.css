@@ -14,6 +14,32 @@ body
     align-items: center;
 }
 
+.container
+{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1
+{
+    position: relative;
+    animation: animate 3s ease infinite forwards;
+}
+
+@keyframes animate {
+     0%,100%
+     {
+        transform: translateY(0px);
+     }
+    50%
+    {
+        transform: translateY(10px);
+    }
+}
 .Box1
 {
     height: 210px;
